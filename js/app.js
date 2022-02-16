@@ -6,7 +6,7 @@ const mathResult = document.getElementById('math-result')
 
 
 plusBtn.addEventListener('click', () => {
-  console.log('plus button')
+  // console.log('plus button')
 mathResult.textContent = parseInt(input1.value)
 })
 

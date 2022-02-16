@@ -16,6 +16,10 @@ button{
   border-radius: 15%;
 }
 
+button:hover {
+  background-color: grey;
+}
+
 input{
   border: 5px solid black;
   width: 100px;
