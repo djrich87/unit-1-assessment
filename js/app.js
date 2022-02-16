@@ -14,3 +14,4 @@ minusBtn.addEventListener('click', () => {
   // console.log('minus button')
 mathResult.textContent = parseInt(mathResult.textContent) - parseInt(input1.value)
 })
+
