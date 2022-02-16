@@ -7,10 +7,10 @@ const mathResult = document.getElementById('math-result')
 
 plusBtn.addEventListener('click', () => {
   // console.log('plus button')
-mathResult.textContent = parseInt(input1.value)
+mathResult.textContent = parseInt(input1.value) + parseInt(mathResult.textContent)
 })
 
 minusBtn.addEventListener('click', () => {
   // console.log('minus button')
-mathResult.textContent = parseInt(input1.value)
+mathResult.textContent = parseInt(input1.value) - parseInt(mathResult.textContent)
 })
